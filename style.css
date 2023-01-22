@@ -219,6 +219,13 @@ header {
   align-items: center;
   padding: 50px 0px;
 }
+.mejor_section_three {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 50px 0px;
+}
 .mejor_section_content_box {
   width: 40%;
   display: flex;
@@ -258,7 +265,7 @@ header {
   background-image: url('./assets/mejor\ sec\ 1.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: contain;
 }
 .mejor_section_two .mejor_section_content_img {
   width: 60%;
@@ -268,5 +275,70 @@ header {
   background-image: url('./assets/mejor_sec_2.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: contain;
+}
+.mejor_section_three .mejor_section_content_img {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/mejor_sec_3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.more_awesome_main_box {
+  width: 100%;
+  height: 850px;
+  background-image: url('./assets/shape\ _\ bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.more_awesome_title_box {
+  width: 100%;
+  padding: 50px 20px;
+  text-align: center;
+}
+.more_awesome_title_box h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  margin: 5px 0px;
+}
+.more_awsome_content_box {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+}
+.more_awsome_content {
+  width: 60%;
+  margin-top: 20px;
+}
+.more_awsome_img {
+  width: 40%;
+  position: relative;
+}
+.more_awsome_img img {
+  margin-top: 40px;
+}
+.more_aws_ser_box_row {
+  width: 100%;
+  display: flex;
+}
+.more_aws_ser_box {
+  padding: 20px 30px;
+  margin: 20px 30px;
+}
+.more_aws_ser_box img {
+  margin: 10px 0px;
+}
+.more_aws_ser_box h4 {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.more_aws_ser_box p {
+  font-size: 16px;
+  line-height: 25px;
 }
