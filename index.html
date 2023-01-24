@@ -5,16 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>App Land</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
       rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
   </head>
   <body>
     <section class="header_main_section">
-      <header>
+      <header class="">
         <div class="logo_box">
           <span><img src="./assets/Logo.png" alt="" /></span>
         </div>
@@ -34,135 +52,173 @@
           <a href="">Get Now</a>
         </div>
       </header>
-
-      <div class="header_banar_box">
-        <div class="banar_left_content_box">
-          <div class="banar_left_content">
-            <h2>
-              A perfect APP can <br />
-              boost your business
-            </h2>
-            <p>
-              The collapse of the online-advertising market in 2001 made <br />
-              marketing on the Internet seem even less compelling.
-            </p>
-            <div class="left_btn_box">
-              <a href="#" class="btn_one">Explore Features</a>
-              <a href="#" class="btn_two">Learn More</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-12">
+            <div class="banar_left_content">
+              <h2>
+                A perfect APP can <br />
+                boost your business
+              </h2>
+              <p>
+                The collapse of the online-advertising market in 2001 made
+                <br />
+                marketing on the Internet seem even less compelling.
+              </p>
+              <div class="left_btn_box">
+                <a href="#" class="btn_one">Explore Features</a>
+                <a href="#" class="btn_two">Learn More</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="banar_right_content_box">
-          <img src="./assets/mobile mockup.png" alt="" />
+          <div class="col-md-7 col-12">
+            <div class="banar_right_content_box">
+              <img src="./assets/mobile mockup.png" alt="" class="img-fluid" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section_2">
-      <div class="exclusive_features_box">
-        <h2>Exclusive Features</h2>
-        <p>Enhance Your Brand Potential With Giant Advertising Blimps</p>
-        <div class="ex_feature_service_main_box">
-          <div class="ex_fe_service_box">
-            <img src="./assets/shape _ icon_1.png" alt="" />
-            <h3>Download Anything</h3>
-            <p>
-              Nascetur nonummy aptent integer deleniti inventore, aptent iste
-              maxime eligendi fuga molestiae.
-            </p>
-          </div>
-          <div class="ex_fe_service_box">
-            <img src="./assets/shape _ icon_2.png" alt="" />
-            <h3>Easy To Customize</h3>
-            <p>
-              Nascetur nonummy aptent integer deleniti inventore, aptent iste
-              maxime eligendi fuga molestiae.
-            </p>
-          </div>
-          <div class="ex_fe_service_box">
-            <img src="./assets/shape _ icon_3.png" alt="" />
-            <h3>Make your business fly</h3>
-            <p>
-              Nascetur nonummy aptent integer deleniti inventore, aptent iste
-              maxime eligendi fuga molestiae.
-            </p>
+      <div class="container">
+        <div class="exclusive_features_box">
+          <h2>Exclusive Features</h2>
+          <p>Enhance Your Brand Potential With Giant Advertising Blimps</p>
+          <div class="container mt-5 pt-3">
+            <div class="row">
+              <div class="col-md-4 col-12">
+                <div class="ex_fe_service_box">
+                  <img
+                    src="./assets/shape _ icon_1.png"
+                    alt=""
+                    class="img-fluid" />
+                  <h3>Download Anything</h3>
+                  <p>
+                    Nascetur nonummy aptent integer deleniti inventore, aptent
+                    iste maxime eligendi fuga molestiae.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="ex_fe_service_box">
+                  <img
+                    src="./assets/shape _ icon_2.png"
+                    alt=""
+                    class="img-fluid" />
+                  <h3>Easy To Customize</h3>
+                  <p>
+                    Nascetur nonummy aptent integer deleniti inventore, aptent
+                    iste maxime eligendi fuga molestiae.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="ex_fe_service_box">
+                  <img
+                    src="./assets/shape _ icon_3.png"
+                    alt=""
+                    class="img-fluid" />
+                  <h3>Make your business fly</h3>
+                  <p>
+                    Nascetur nonummy aptent integer deleniti inventore, aptent
+                    iste maxime eligendi fuga molestiae.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="mejor_main_section">
-      <div class="mejor_section_title_box">
+      <div class="mejor_section_title_box mb-5 pb-5">
         <h3>Major Functionalities</h3>
         <p>Enhance Your Brand Potential With Giant Advertising Blimps</p>
       </div>
 
-      <div class="mejor_section_one">
-        <div class="mejor_section_content_box">
-          <div class="mejor_section_content">
-            <img src="./assets/m1_icon.png" alt="" />
-            <h3>
-              Promotional Advertising Specialty <br />
-              You Ve Waited Long Enough
-            </h3>
-            <span
-              >Ever wondered how some graphic designers always manage to produce
-              beautiful looking designs for their brochures, website designs,
-              logo designs? Talent...yes, it helps but there are a handful of
-              more important things you can do that will have even complete
-              beginners producing award winning design.</span
-            >
-            <a href="#">Learn More</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-12">
+            <div class="mejor_section_content">
+              <img src="./assets/m1_icon.png" alt="" class="img-fluid" />
+              <h3>
+                Promotional Advertising Specialty <br />
+                You Ve Waited Long Enough
+              </h3>
+              <span
+                >Ever wondered how some graphic designers always manage to
+                produce beautiful looking designs for their brochures, website
+                designs, logo designs? Talent...yes, it helps but there are a
+                handful of more important things you can do that will have even
+                complete beginners producing award winning design.</span
+              >
+              <a href="#">Learn More</a>
+            </div>
           </div>
-        </div>
-        <div class="mejor_section_content_img">
-          <img src="./assets/06_Statistics_Crve.png" alt="" />
-        </div>
-      </div>
-
-      <div class="mejor_section_two">
-        <div class="mejor_section_content_img">
-          <img src="./assets/travel1.png" alt="" />
-        </div>
-        <div class="mejor_section_content_box">
-          <div class="mejor_section_content">
-            <img src="./assets/m2_icon.png" alt="" />
-            <h3>
-              Dynamic DNS Update Script for <br />
-              Appland
-            </h3>
-            <span
-              >Ever wondered how some graphic designers always manage to produce
-              beautiful looking designs for their brochures, website designs,
-              logo designs? Talent...yes, it helps but there are a handful of
-              more important things you can do that will have even complete
-              beginners producing award winning design.</span
-            >
-            <a href="#">Learn More</a>
+          <div class="col-md-7 col-12">
+            <div class="mejor_section_content_img">
+              <img
+                src="./assets/06_Statistics_Crve.png"
+                alt=""
+                class="img-fluid" />
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="mejor_section_three">
-        <div class="mejor_section_content_box">
-          <div class="mejor_section_content">
-            <img src="./assets/m3_icon.png" alt="" />
-            <h3>
-              How To Automate the Scaling of <br />
-              Your Web Application
-            </h3>
-            <span
-              >Ever wondered how some graphic designers always manage to produce
-              beautiful looking designs for their brochures, website designs,
-              logo designs? Talent...yes, it helps but there are a handful of
-              more important things you can do that will have even complete
-              beginners producing award winning design.</span
-            >
-            <a href="#">Learn More</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-12">
+            <div class="mejor_section_content_img_2">
+              <img src="./assets/travel1.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-5 col-12">
+            <div class="mejor_section_content">
+              <img src="./assets/m2_icon.png" alt="" />
+              <h3>
+                Dynamic DNS Update Script for <br />
+                Appland
+              </h3>
+              <span
+                >Ever wondered how some graphic designers always manage to
+                produce beautiful looking designs for their brochures, website
+                designs, logo designs? Talent...yes, it helps but there are a
+                handful of more important things you can do that will have even
+                complete beginners producing award winning design.</span
+              >
+              <a href="#">Learn More</a>
+            </div>
           </div>
         </div>
-        <div class="mejor_section_content_img">
-          <img src="./assets/crypto_wallet.png" alt="" />
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-12">
+            <div class="mejor_section_content">
+              <img src="./assets/m3_icon.png" alt="" />
+              <h3>
+                How To Automate the Scaling of <br />
+                Your Web Application
+              </h3>
+              <span
+                >Ever wondered how some graphic designers always manage to
+                produce beautiful looking designs for their brochures, website
+                designs, logo designs? Talent...yes, it helps but there are a
+                handful of more important things you can do that will have even
+                complete beginners producing award winning design.</span
+              >
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="col-md-7 col-12">
+            <div class="mejor_section_content_img">
+              <img src="./assets/crypto_wallet.png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -173,47 +229,59 @@
         <p>Enhance Your Brand Potential With Giant Advertising Blimps</p>
       </div>
 
-      <div class="more_awsome_content_box">
-        <div class="more_awsome_content">
-          <div class="more_aws_ser_box_row">
-            <div class="more_aws_ser_box">
-              <img src="./assets/print_icon.png" alt="" />
-              <h4>Unique Design</h4>
-              <p>
-                Nesciunt rerum occaecati quod et nesciunt dolorum, lacus
-                accusamus nemo, facilis debitis.
-              </p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-12">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="more_aws_ser_box">
+                  <img src="./assets/print_icon.png" alt="" />
+                  <h4>Unique Design</h4>
+                  <p>
+                    Nesciunt rerum occaecati quod et nesciunt dolorum, lacus
+                    accusamus nemo, facilis debitis.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="more_aws_ser_box">
+                  <img src="./assets/code_icon.png" alt="" />
+                  <h4>Clean Code</h4>
+                  <p>
+                    Nesciunt rerum occaecati quod et nesciunt dolorum, lacus
+                    accusamus nemo, facilis debitis.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="more_aws_ser_box">
-              <img src="./assets/code_icon.png" alt="" />
-              <h4>Clean Code</h4>
-              <p>
-                Nesciunt rerum occaecati quod et nesciunt dolorum, lacus
-                accusamus nemo, facilis debitis.
-              </p>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="more_aws_ser_box">
+                  <img src="./assets/ratina_icon.png" alt="" />
+                  <h4>Retina Ready</h4>
+                  <p>
+                    Nesciunt rerum occaecati quod et nesciunt dolorum, lacus
+                    accusamus nemo, facilis debitis.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="more_aws_ser_box">
+                  <img src="./assets/pixel_icon.png" alt="" />
+                  <h4>Pixel Perfect</h4>
+                  <p>
+                    Nesciunt rerum occaecati quod et nesciunt dolorum, lacus
+                    accusamus nemo, facilis debitis.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="more_aws_ser_box_row">
-            <div class="more_aws_ser_box">
-              <img src="./assets/ratina_icon.png" alt="" />
-              <h4>Retina Ready</h4>
-              <p>
-                Nesciunt rerum occaecati quod et nesciunt dolorum, lacus
-                accusamus nemo, facilis debitis.
-              </p>
-            </div>
-            <div class="more_aws_ser_box">
-              <img src="./assets/pixel_icon.png" alt="" />
-              <h4>Pixel Perfect</h4>
-              <p>
-                Nesciunt rerum occaecati quod et nesciunt dolorum, lacus
-                accusamus nemo, facilis debitis.
-              </p>
+          <div class="col-md-5 col-12">
+            <div class="more_awsome_img">
+              <img src="./assets/iphonex.png" alt="" />
             </div>
           </div>
-        </div>
-        <div class="more_awsome_img">
-          <img src="./assets/iphonex.png" alt="" />
         </div>
       </div>
     </section>
@@ -223,54 +291,136 @@
         <h3>Latest post</h3>
         <p>Enhance Your Brand Potential With Giant Advertising Blimps</p>
       </div>
-      <div class="blog_post_box">
-        <div class="blog_post_img">
-          <img src="./assets/blog1.png" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="blog_post_img">
+              <img src="./assets/blog1.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="blog_post_content">
+              <span
+                >Posted by: Dylan Meringue | June 24, 2018 | 04 Comments</span
+              >
+              <h3>
+                Are You Ready To Buy A Home Theater <br />
+                Audio System
+              </h3>
+              <p>
+                Semper aliquip nemo asperiores consequuntur ante, at atque
+                <br />
+                iaculis nesciunt voluptas laboriosam repellat laboriosam varius.
+                <br />
+                alias odit, Molestie porro earum asperiores!
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
         </div>
-
-        <div class="blog_post_content">
-          <span>Posted by: Dylan Meringue  |  June 24, 2018  |  04 Comments</span>
-          <h3>Are You Ready To Buy A Home Theater Audio System</h3>
-          <p>Semper aliquip nemo asperiores consequuntur ante, at atque iaculis nesciunt voluptas laboriosam repellat laboriosam varius. alias odit, Molestie porro earum asperiores!</p>
-          <a href="#">Read More</a>
-        </div>
-      </div>
-      <div class="blog_post_box">
-        <div class="blog_post_img">
-          <img src="./assets/blog2.png" alt="">
-        </div>
-
-        <div class="blog_post_content">
-          <span>Posted by: Dylan Meringue  |  June 24, 2018  |  04 Comments</span>
-          <h3>For Women Only Your Computer Usage Could Cost You Your Job</h3>
-          <p>Semper aliquip nemo asperiores consequuntur ante, at atque iaculis nesciunt voluptas laboriosam repellat laboriosam varius. alias odit, Molestie porro earum asperiores!</p>
-          <a href="#">Read More</a>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="blog_post_img">
+              <img src="./assets/blog2.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="blog_post_content">
+              <span
+                >Posted by: Dylan Meringue | June 24, 2018 | 04 Comments</span
+              >
+              <h3>
+                For Women Only Your Computer Usage <br />
+                Could Cost You Your Job
+              </h3>
+              <p>
+                Semper aliquip nemo asperiores consequuntur ante, at atque
+                <br />
+                iaculis nesciunt voluptas laboriosam repellat laboriosam varius.
+                <br />
+                alias odit, Molestie porro earum asperiores! <br />
+              </p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-
 
     <section class="get_app_now">
-      <div class="get_app_content">
-        <h3>Get App Now!</h3>
-        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed consequuntur magni dolores ratione voluptatem. qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
-        <div class="playStore_img_box">
-   <img src="./assets/Play Store.png" alt="">
-   <img src="./assets/appstore.png" alt="">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-md-6 col-12">
+            <div class="get_app_content">
+              <h3>Get App Now!</h3>
+              <p>
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+                aut fugit, sed consequuntur magni dolores ratione voluptatem.
+                qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                velit
+              </p>
+              <div class="playStore_img_box">
+                <img src="./assets/Play Store.png" alt="" />
+                <img src="./assets/appstore.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="get_app_img_box">
+              <img src="./assets/get app iphone.png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
-      <div class="get_app_img_box">
-        <img src="./assets/get app iphone.png" alt="">
+    </section>
+
+    <section class="team_img_slider_section">
+      <div class="trust_team_title">
+        <h2>Trusted by Great Team</h2>
+        <p>Enhance Your Brand Potential With Giant Advertising Blimps</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="team_slider_main multiple_items">
+            <div class="team_slider">
+              <img src="./assets/t1.png" alt="" />
+            </div>
+            <div class="team_slider">
+              <img src="./assets/t2.png" alt="" />
+            </div>
+            <div class="team_slider">
+              <img src="./assets/t3.png" alt="" />
+            </div>
+            <div class="team_slider">
+              <img src="./assets/t4.png" alt="" />
+            </div>
+            <div class="team_slider">
+              <img src="./assets/t1.png" alt="" />
+            </div>
+            <div class="team_slider">
+              <img src="./assets/t2.png" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <br />
 
+    <br />
+    <br />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
     <script src="./app.js"></script>
   </body>
 </html>
