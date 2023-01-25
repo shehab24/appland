@@ -1,10 +1,19 @@
 
+let clickBtn = document.querySelector(".click_btn");
+let mobileMenu = document.querySelector(".mobile_menu");
+
+clickBtn.addEventListener("click" , function(){
+mobileMenu.classList.toggle("active");
+
+});
+
+
 $('.multiple_items').slick({
     dots: true,
     infinite: false,
     speed: 300,
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024,
