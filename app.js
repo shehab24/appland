@@ -2,10 +2,20 @@
 let clickBtn = document.querySelector(".click_btn");
 let mobileMenu = document.querySelector(".mobile_menu");
 
+
+
 clickBtn.addEventListener("click" , function(){
 mobileMenu.classList.toggle("active");
+clickBtn.innerHTML = '<i class="fa-solid fa-bars"></i>';
+if(mobileMenu.classList.contains("active")){
+  clickBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>';
+}
 
 });
+
+
+
+
 
 
 $('.multiple_items').slick({
